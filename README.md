@@ -4,9 +4,8 @@
 
 ### 接口调用
 
-----------------------
 1. 获取图片
-----------------------
+
 GET http://cache.neea.edu.cn/Imgs.do?ik=准考证号&t=0.6002525141319914 HTTP/1.1
 Host: cache.neea.edu.cn
 Proxy-Connection: keep-alive
@@ -35,15 +34,9 @@ Accept-Encoding: gzip, deflate
 Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
 Cookie: UM_distinctid=15ddab8ea07302-04182c5cab6868-791238-1fa400-15ddab8ea0976; verify=enc|ba3633d8066b323cd1e4139c90a0f5ea84ca7e0112463eecd718e0949306c91f; community=Home; language=1; CNZZDATA1256596322=1852199976-1503362387-null%7C1503367787; Hm_lvt_dc1d69ab90346d48ee02f18510292577=1503370065,1503371098,1503372217,1503372362; Hm_lpvt_dc1d69ab90346d48ee02f18510292577=1503372362
 
-----------------------
 2. 识别图片
-----------------------
 
-
-
-----------------------
 3. 查询信息
-----------------------
 
 POST http://cache.neea.edu.cn/cet/query HTTP/1.1
 Host: cache.neea.edu.cn
